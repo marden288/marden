@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">CE<span>Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h3>Hello, I'm</h3>
+                <h1>Marden</h1>
+                <h2><span class="typing"></span></h2>
+                <p>Passionate about bridging the gap between hardware and software. Specializing in embedded systems and modern web technologies.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-box">
+                    <img src="marden.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Computer Engineering Student</h3>
+                    <p>I am a dedicated Computer Engineering student with a strong foundation in both hardware design and software development. My journey in technology started with a fascination for how things work, leading me to explore the world of microcontrollers and web development.</p>
+                    <div class="education">
+                        <h4>Education</h4>
+                        <div class="edu-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h5>Bachelor of Science in Computer Engineering</h5>
+                                <p>North Western University | 2026 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goals">
+                        <h4>Career Goals</h4>
+                        <p>My goal is to contribute to innovative projects in Embedded Systems and IoT, while maintaining a sharp edge in Full-stack Web Development. I strive to build efficient, scalable, and user-centric solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>C / C++</span>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web Development -->
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>HTML / CSS</span>
+                            <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React / Vue</span>
+                            <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="progress-bar"><div class="progress" data-width="70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Embedded Systems -->
+                <div class="skill-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Embedded Systems</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Arduino / ESP32</span>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Sensors & Actuators</span>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PCB Design</span>
+                            <div class="progress-bar"><div class="progress" data-width="65%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tools & DB -->
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools & Database</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Git / GitHub</span>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>VS Code / Multisim</span>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="measuring height device.jpg" alt="Arduino Height Measuring Machine">
+                    </div>
+                    <div class="project-info">
+                        <h3>Arduino Height Measuring Machine</h3>
+                        <p>An ultrasonic sensor-based device that accurately measures height and displays it on an LCD screen.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>Ultrasonic Sensor</span>
+                            <span>C++</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="best-systems-page-3.jpg" alt="Smart Intruder Alert System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Intruder Alert System</h3>
+                        <p>IoT-based security system using PIR sensors and ESP32 to send real-time alerts to a mobile app.</p>
+                        <div class="tech-stack">
+                            <span>ESP32</span>
+                            <span>PIR Sensor</span>
+                            <span>Blynk IoT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images.jpg" alt="Smart Safe Lock with RFID">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Safe Lock with RFID</h3>
+                        <p>A secure locking mechanism using RFID technology and a servo motor for keyless entry.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>RFID-RC522</span>
+                            <span>Servo</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="den.jpg" alt="Personal Portfolio Website">
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website built with HTML, CSS, and JavaScript to showcase my work.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h4>Embedded Systems Specialist</h4>
+                        <p>Coursera | Issued Oct 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h4>Full Stack Web Development</h4>
+                        <p>FreeCodeCamp | Issued Jan 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h4>Python for Data Science</h4>
+                        <p>IBM | Issued Aug 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume section">
+        <div class="container">
+            <div class="resume-box">
+                <h2>Ready to see my full experience?</h2>
+                <p>Download my detailed resume to learn more about my background and technical expertise.</p>
+                <a href="resume.pdf" class="btn primary-btn" download><i class="fas fa-download"></i> Download Resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mardenbarangan0728@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>09953069825</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Laoag , Ilocos Norte</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@barangan28"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="portfolio-contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                    <div id="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Marden. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scroll-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Project Modal (Bonus) -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
